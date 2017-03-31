@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorGray"
+        >
+        <ImageView
+            android:id="@+id/backImageView"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="选择料号"
+            android:textSize="16sp"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="10dp"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+        <EditText
+            android:id="@+id/et_textSearch"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="请输入料号"
+            android:layout_margin="5dp"
+            android:paddingLeft="5dp"
+            android:inputType="number"
+            android:background="@color/colorWhite"
+            />
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:src="@drawable/search"/>
+
+    </LinearLayout>
+    <!--<TextView-->
+        <!--android:id="@+id/tv_all"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="All"-->
+        <!--android:paddingLeft="15dp"-->
+        <!--android:textSize="14sp"-->
+        <!--android:textColor="#333"-->
+        <!--android:gravity="center_vertical"-->
+        <!--/>-->
+    <ListView
+        android:id="@+id/listView_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </ListView>
+
+
+
+
+</LinearLayout>

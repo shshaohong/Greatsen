@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGray">#2D3D55</color>
+    <color name="colorGrayAlpha">#4D5666</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGreen">#2F6E70</color>
+    <color name="windowbackground">#00000000</color>
+
+    <color name="colorKailu">#D92AB7</color>
+    <color name="colorDuanlu">#DE2227</color>
+    <color name="colorQuekou">#DF6A2B</color>
+    <color name="colorZhenkong">#D3AC31</color>
+    <color name="colorTongzha">#E9E583</color>
+    <color name="colorTuqi">#99DA35</color>
+    <color name="colorAoxian">#39DE33</color>
+    <color name="colorXianxi">#31DF9E</color>
+    <color name="colorXiancu">#2AA2DE</color>
+    <color name="colorXianju">#256DDF</color>
+    <color name="colorQita">#AD2CD9</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
